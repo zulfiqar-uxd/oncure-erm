@@ -2,12 +2,14 @@
 const nextConfig = {
   basePath: process.env.BASEPATH,
   redirects: async () => {
-    return [{
-      source: '/',
-      destination: '/home',
-      permanent: true,
-      locale: false
-    }]
+    return [
+      {
+        source: '/',
+        destination: '/dashboard',
+        permanent: true,
+        locale: false
+      }
+    ]
   }
 }
 

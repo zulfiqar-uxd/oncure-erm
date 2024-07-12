@@ -16,11 +16,11 @@
  * Another way is to clear the cookie from the browser's Application/Storage tab and then reload the page.
  */
 const themeConfig = {
-  templateName: 'Materio',
-  homePageUrl: '/home',
-  settingsCookieName: 'materio-mui-next-demo',
-  mode: 'system', // 'system', 'light', 'dark'
-  skin: 'default', // 'default', 'bordered'
+  templateName: 'oncure',
+  homePageUrl: '/dashboard',
+  settingsCookieName: 'oncure-erm-local-storage',
+  mode: 'light', // 'system', 'light', 'dark'
+  skin: 'bordered', // 'default', 'bordered'
   semiDark: false, // true, false
   layout: 'vertical', // 'vertical', 'collapsed', 'horizontal'
   layoutPadding: 24, // Common padding for header, content, footer layout components (in px)
@@ -38,7 +38,8 @@ const themeConfig = {
     contentWidth: 'compact', // 'compact', 'wide'
     detached: true //! true, false (This will not work in the Horizontal Layout)
   },
-  disableRipple: false // true, false
+  disableRipple: false, // true, false
+  toastPosition: 'top-right' // 'top-right', 'top-center', 'top-left', 'bottom-right', 'bottom-center', 'bottom-left'
 }
 
 export default themeConfig
