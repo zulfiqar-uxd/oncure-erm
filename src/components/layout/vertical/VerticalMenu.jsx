@@ -28,6 +28,11 @@ const menuData = [
     label: 'Main',
     subMenu: [
       {
+        label: 'Dashboard',
+        icon: <i className='ri-dashboard-line' />,
+        menuItems: [{ label: 'Dashboard' }]
+      },
+      {
         label: 'Patients',
         icon: <i className='ri-user-heart-line' />,
         menuItems: [{ label: 'Quick Register' }, { label: 'Patient Records' }, { label: 'Patient Messages' }]
